@@ -3,25 +3,17 @@ const modalbg = document.querySelector(".modal-bg")
 const cross = document.querySelector(".cross");
 const topLink = document.querySelector(".top-link");
 const carousel = document.getElementById("home");
-const navbar = document.querySelector(".head");
-
-
 
 window.addEventListener("scroll", function () {
   let scrollHeight = window.pageYOffset;
-  let carouselHeight = carousel.getBoundingClientRect().height;
-  if (scrollHeight > carouselHeight) {
-    navbar.classList.add("fixed-navbar");
-  } else {
-    navbar.classList.remove("fixed-navbar");
-  }
-
+  //*******back to top icon visibilty***********
   if (scrollHeight > 1150) {
     topLink.classList.add("show-link");
   } else {
     topLink.classList.remove("show-link");
   }
 });
+
 
 
 signin.addEventListener("click", function () {
@@ -38,18 +30,6 @@ window.addEventListener("click", function (event) {
     console.log(event)
   }
 })
-
-
-
-
-
-
-
-
-
-
-
-
 
 const months = [
   "January",

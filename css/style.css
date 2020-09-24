@@ -110,16 +110,7 @@ button:hover{
     font-weight: 800;
 }  
 
-.fixed-navbar {
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  }
-     /*first navbar ends*/
+
 
 /* modal */
 .modal-bg{
@@ -609,7 +600,7 @@ figcaption{
 
 /* offer valid */
 .offer-img{
-    background-image:url("/images/marcin-kempa-3sLosN6dPoQ-unsplash.jpg");
+    background-image:url('/images/marcin-kempa-3sLosN6dPoQ-unsplash.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -837,7 +828,7 @@ figcaption{
   }
   
   .address-2 span {
-    color: #4cd3c2;
+    color:white;
   }
   
   .store-info {
