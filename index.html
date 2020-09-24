@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8">
+       
+        <title>webpage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+        <header class="container-fluid head">  
+           <!--First navbar-->
+          <nav class="bg-light nav-1">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 nav-content">
+                
+                  <a  class="navbar-brand  animate__animated animate__zoomIn animate__delay-1s"   href="#"><h1 class="logo">Store</h1></a>
+                </div>
+                <div class="col-lg-5 col-md-4 search-div nav-content">
+                  <form class="search">
+                    <input class="form-control " type="search" placeholder="Search" aria-label="Search"/>
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+                </div>
+                <div class="col-lg-4 col-md-5 div-user nav-content">
+                  <div class="user panel" style="display: flex">
+                    <div class="up-item"><i class="far fa-user"></i>
+                       <a class="sign-in" href="#">Sign in</a></div>
+                    <div class="up-item cart-btn">
+                        <i class="fas fa-cart-arrow-down user-font"></i><span class="cart-count">0</span> 
+                        <a href="cart.html" id="cart">Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+                      <!--First navbar ends-->
+       <!-- --------------Modal1 sign in--------------- -->
+  <div class="container-fluid modal-bg">
+    <span class="cross">X</span>
+    <div class="row modal-1">
+
+      <div class="col-md-8 mod-sign">
+        <h4> <span class="sign-now"> Sign In</span> Now</h4>
+        <form action="#">
+          <div class="email-signin mod-sign">
+            <input type="Email" name="email" required>
+            <label for="">Email</label>
+          </div>
+          <div class="sigin-pass mod-sign">
+            <input type="password" name="password" required aria-autocomplete="list">
+            <label for="">Password</label>
+          </div>
+        </form>
+        <button type="button">Sign In</button>
+      </div>
+      <div class="col-md-4">
+        <img src="rowan-chestnut-m663zRzRe40-unsplash.jpg" alt="" width="100%">
+      </div>
+    </div>
+  </div>
+          <!-- --------------Modal1 sign in--------------- -->
+                <!--Second navbar-->
+   <nav class="navbar navbar-expand-lg nav-2">  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><i class="fas fa-bars" id="bars"></i></span>
+      </button>         
+       <div class="container">
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav text-center">
+             
+                 <li class="nav-item active ">
+                      <a class="nav-link" href="#"><span class="item1">Home</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle item2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Clothes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">kids wear</a>
+                      <a class="dropdown-item" href="#">Mens wear</a>
+                   
+                      <a class="dropdown-item" href="#">Sneakers</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle item3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Furtinures
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Chairs</a>
+                      <a class="dropdown-item" href="#">Tables</a>
+                      <a class="dropdown-item" href="#">Wall Acessories</a>
+                      <a class="dropdown-item" href="#">Sofa</a>
+                    </div>
+                  </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"><span class="item4">Offers</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"><span class="item5">Aboutus</span></a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#"><span class="item6">Contact</span></a>
+                      </li>
+                    </ul>
+                </div>
+                  </div>
+                  </nav>
+                  <!--Second navbar-->
+            
+
+<!--Carousel -->
+<section class="image-slider" id="home">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="ashim-d-silva-ZmgJiztRHXE-unsplash.jpg" class="d-block w-100" alt="..." class="img-responsive">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="new">New<span class="h2name">Arrivals</span></h2>
+          <p class="only">Only<Span class="off">50% </Span> Off</p>
+          <button class="shop-btn" type="submit">Shop Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="eduard-militaru-dtuM342uTmc-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="fur">Best Furnitures here</h2>
+          <p class="fur-off">Upto 70% off</p>
+          <button class="shop-btn" type="submit">Shop Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="zeny-rosalina-Z3tc0Bfv0c4-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="acc">New Accessories Collections </h2>
+          <p class="acc-off">Upto 60% off on jewelries</p>
+          <button class="shop-btn" type="submit">View Offers</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="camila-damasio-mWYhrOiAgmA-unsplash.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="shoes">Huge offers on Brands like Nike , Converse etc.</h2>
+        
+          <button class="shop-btn" type="submit">View Offers</button>
+        </div>
+      </div>
+      
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="fas fa-chevron-left cor-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="fas fa-chevron-right cor-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+</section>
+
+<!--caraousel ends-->
+<section class="conbanner">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 animate__animated animate__bounceInLeft animate__delay-2s">
+      <div class="banner1">
+     <figure>
+       <img src="1.jpg" width="376px" height="415px">
+         <figcaption>
+           <h3>Best <span class="store">Store</span><b> in online shopping</b></h3>
+        </figcaption>
+      </figure>
+      </div>
+       </div>
+    <div class="col-lg-4 col-md-4 animate__animated animate__bounceInDown animate__delay-2s" >
+      <div class="container">
+          <figure class="banner2">
+            <img src="2.jpg" alt="ll" class="img-responsive" width="371px" height="200px">
+          <figcaption>
+            <h5 class="cap1">Discount<h5>
+          </figcaption>
+          </figure>
+      </div>
+    
+      <div class="container">
+        <figure class="banner3">
+         <img src="3.jpg" alt="ll" class="img-responsive" width="371px" height="200px">
+         <figcaption>
+          <h5 class="cap2">Discount</h5>
+         </figcaption>
+         
+        </figure>
+      </div>
+    </div>
+  
+    <div class="col-lg-4 col-md-4 animate__animated animate__bounceInRight animate__delay-2s">
+      <div class="container">
+      <figure class="banner4">
+        <img src="4.jpg"  width="359px" height="413px">
+          <figcaption>
+            <h5 class="cap3">Top Designs and <b class="cap4">Collections of 2020</b> </h5>
+               
+           </figcaption>
+       </figure>
+        </div>
+        </div>
+        <div class="clearfix"></div>
+     </div>
+     </div>
+     </div>
+     </section>
+
+<section class="container new_collec animate__animated animate__zoomIn animate__delay-3s ">
+  <p class="p1">New Collections</p> 
+  <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Tempora, nostrum dolorem quas libero </p>
+  </section>
+   <!--First product row-->
+<div class="conatiner product_list">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-4">
+      <figure class="prod1">
+        <img src="553459fa-43ce-4c68-9491-db34f19985a01598936291470-US-Polo-Assn-Men-Grey-Tailored-Fit-Solid-Casual-Shirt-715159-4.jpg"
+          class="img1" alt="" width="80%">
+          <figcaption>
+            <h6 class="pro1">Casual Shirt</h6>
+            <p class="price1">Rs. 900 <span class="delprice">Rs.1499</span></p>
+            <a  class="buy-btn"><p class="buybtn">Buy Now</p></a>
+            <p class="pro-new">New</p>
+          </figcaption>
+      </figure>
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <figure class="prod2">
+        <img src="d0945f5f-bb57-45a6-9615-7aea74707d201586861228235-ADIDAS-Men-Navy-Sedna-Running-Shoes-7821586861226106-1.webp"
+          class="img1" alt="" width="80%">
+          <figcaption>
+            <h6 class="pro2">Sneakers</h6>
+            <p class="price1">Rs. 2999 <span class="delprice">Rs.5999</span></p>
+            <a  class="buy-btn"><p class="buybtn">Buy Now</p></a>
+            <p class="pro-new">New</p>
+          </figcaption>
+      </figure>
+    </div>
+      <div class="col-lg-4 col-md-4">
+        <figure class="prod3">
+          <img src="60785496-7974-463b-b604-634d33ce6cde1599120622296-BEAT-LONDON-by-PEPE-JEANS-Men-Jeans-6291599120620590-1.jpg"
+            class="img3" alt=""width="80%" >
+            <figcaption>
+              <h6 class="pro3">Slim fit jeans</h6>
+              <p class="price3">Rs. 1900 <span class="delprice">Rs.2599</span></p>
+              <a  class="buy-btn"><p class="buybtn3">Buy Now</p></a>
+            
+            </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+                           <!--First product row-->
+<div class="container">
+  <div class="row">
+    <div class="card2">
+      <figure class="prod4">
+        <img src="5.jpg"
+          class="img3" alt="" >
+          <figcaption>
+            <h6 class="pro4">Dining Table</h6>
+            <p class="price4">Rs. 4999 <span class="delprice">Rs.8999</span></p>
+            <a  class="buy-btn"><p class="buybtn4">Buy Now</p></a>
+          </figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+
+<div class="conatiner product_list">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4">
+        <figure class="prod1">
+          <img src="10.jpg" class="img1" alt="" width="80%">
+            <figcaption>
+              <h6 class="pro5">Pearl and Stone Anklet</h6>
+              <p class="price1">Rs. 900 <span class="delprice">Rs.1499</span></p>
+              <a  class="buy-btn"><p class="buybtn">Buy Now</p></a>
+            </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-4 col-md-4">
+        <figure class="prod2">
+          <img src="6.jpg"
+            class="img1" alt="" width="80%">
+            <figcaption>
+              <h6 class="pro2">Wall Lamp</h6>
+              <p class="price1">Rs. 2999 <span class="delprice">Rs.5999</span></p>
+              <a  class="buy-btn"><p class="buybtn">Buy Now</p></a>
+            </figcaption>
+        </figure>
+      </div>
+        <div class="col-lg-4 col-md-4">
+          <figure class="prod3">
+            <img src="11.jpg"
+              class="img3" alt=""width="80%" >
+              <figcaption>
+                <h6 class="pro3"> Bangles </h6>
+                <p class="price3">Rs. 1900 <span class="delprice">Rs.2599</span></p>
+                <a  class="buy-btn"><p class="buybtn3">Buy Now</p></a>
+              
+              </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+ 
+  <div class="container-fluid offer-img">
+     <div class="container">
+    <h1>Offer Ends In</h1> 
+         
+    <div class="deadline">
+      <!-- days -->
+      <div class="deadline-format">
+        <div>
+          <h4 class="days">34</h4>
+          <span>days</span>
+        </div>
+      </div>
+      <!-- end of days -->
+      <!-- days -->
+      <div class="deadline-format">
+        <div>
+          <h4 class="hours">34</h4>
+          <span>hours</span>
+        </div>
+      </div>
+      <!-- end of days -->
+      <!-- minutes -->
+      <div class="deadline-format">
+        <div>
+          <h4 class="minutes">34</h4>
+          <span>mins</span>
+        </div>
+      </div>
+      <!-- end of days -->
+      <!-- minutes -->
+      <div class="deadline-format">
+        <div>
+          <h4 class="seconds">34</h4>
+          <span>secs</span>
+        </div>
+      </div>
+      <!-- end of days -->
+    </div> 
+    </div>
+    
+  </div>
+<!--coupon-->
+<section>
+  <div class="container coupons text-center">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <i class="fas fa-truck"></i>
+        <h5>FREE SHIPPING</h5>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <i class="fas fa-headphones"></i>
+        <h5>24/7 SUPPORT</h5>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <i class="fas fa-shopping-bag"></i>
+        <h5> MONEY BACK GAURANTEE </h5>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <i class="fas fa-gift"></i>
+        <h5> FREE GIFT COUPONS </h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--coupon-->
+<!--Footer -->
+<footer>
+  <div class="conatiner-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <h4 class="logo-footer"><span class="footer-d">Store</span></h4>
+        <p class="foo-p">
+          Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed ipsum dolor quia non numquam eius modi
+          tempora.
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h4><span class="footer-span">OUR</span> INFORMATION</h4>
+        <div class="container info-p">
+          <p>Home</p>
+          <p>Men's Wear</p>
+          <p>Women's Wear</p>
+          <p>Kid's Wear</p>
+          <p>Offers</p>
+          <p>Contact</p>
+        </div>
+      </div>
+      <!-- ----------store information---------- -->
+      <div class="col-lg-4 col-md-6">
+        <h4><span class="footer-span">STORE</span> INFORMATION</h4>
+        <div class="address">
+          <div class="address-1 store-info">
+            <div class="phone-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="information">
+              <h5>Phone Number</h5>
+              <p>+12 34 567 8901</p>
+            </div>
+          </div>
+          <div class="address-2 store-info">
+            <div class="phone-icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="information">
+              <h5>Email Addres</h5>
+              <p>Email: <span>example@gmail.com</span></p>
+            </div>
+          </div>
+          <div class="address-3 store-info">
+            <div class="phone-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="information">
+              <h5>Location</h5>
+              <p>Broome st Dl 110090, INDIA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------News Letter--------------- -->
+  <div class="container-fluid news">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 letter">
+        <h4>SIGN UP FOR NEWS LETTER!!</h4>
+      </div>
+      <div class="col-lg-6 col-md-6 newsright">
+        <form action="#">
+          <input type="email" placeholder="Enter Youe Email.." />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- -------------Copyright---------------------- -->
+  <p class="copyright">© 2020 Dark Grace. All rights reserved | Designed by <span>Devesh</span></p>
+
+  <!-- --------------Back to top---------------------- -->
+  <div class="container"> <a href="#" class="top-link">
+      <i class="fas fa-arrow-circle-up"></i>
+    </a></div>
+</footer>
+<!--footer-->
+
+<!--boostrap plugins-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="js/cart.js"></script>
+<script src="js/index.js"></script>
+    </body>
+</html>
