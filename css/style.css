@@ -109,10 +109,23 @@ button:hover{
     color:white;
     font-weight: 800;
 }  
+.fixed-navbar {
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.head {
+  padding-right:0 !important;
+  padding-left:0!important;
+}
 
 
-
-/* modal */
+       /*===== modal======== */
 .modal-bg{
     position:fixed;
     top:0;
@@ -202,7 +215,7 @@ button:hover{
     background-color: rgb(248, 91, 91);
     transform: scale(1.2);
   }
-
+            /*===== modal======== */
    .navbar{
        background-color:rgb(32, 32, 32);
     
