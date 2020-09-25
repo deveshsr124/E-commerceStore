@@ -2,56 +2,49 @@ let products=[
     
     { 
         name:'Casual Shirt',
-        tag:'Casual Shirt',
-        img:'553459fa-43ce-4c68-9491-db34f19985a01598936291470-US-Polo-Assn-Men-Grey-Tailored-Fit-Solid-Casual-Shirt-715159-4.jpg',
+        img:'images/553459fa-43ce-4c68-9491-db34f19985a01598936291470-US-Polo-Assn-Men-Grey-Tailored-Fit-Solid-Casual-Shirt-715159-4.jpg',
         price:900 ,
         incart:0,
     },
      
     {
         name:'Sneakers',
-        tag:'Sneakers',
-        img:'d0945f5f-bb57-45a6-9615-7aea74707d201586861228235-ADIDAS-Men-Navy-Sedna-Running-Shoes-7821586861226106-1.webp',
+        img:'images/d0945f5f-bb57-45a6-9615-7aea74707d201586861228235-ADIDAS-Men-Navy-Sedna-Running-Shoes-7821586861226106-1.webp',
         price:2999,
         incart:0,
     },
 
     {
         name:'Slim fit jeans',
-        tag:'Slim fit jeans',
         price:1900,
-        img:'60785496-7974-463b-b604-634d33ce6cde1599120622296-BEAT-LONDON-by-PEPE-JEANS-Men-Jeans-6291599120620590-1.jpg',
+        img:'images/60785496-7974-463b-b604-634d33ce6cde1599120622296-BEAT-LONDON-by-PEPE-JEANS-Men-Jeans-6291599120620590-1.jpg',
         incart:0,
     },
        
     {
         name:'Dining Table',
-        tag:'Dining Table',
-        img:'5.jpg',
+        img:'images/5.jpg',
         price:4999,
         incart:0,
     },
 
     {
         name:'Pearl and Stone Anklet',
-        tag:'Pearl and Stone Anklet',
-        img:'10.jpg',
+        img:'images/10.jpg',
         price:'900',
         incart:0,
     },
 
     {
         name:'Wall Lamp',
-        tag:'Wall Lamp',
-        img:'6.jpg',
+        img:'images/6.jpg',
         price:2999,
         incart:0,
     },
 
     {
         name:'Bangles',
-        tag:'Bangles',
-        img:'11.jpg',
+        img:'images/11.jpg',
         price:1900,
         incart:0,
     }
@@ -153,9 +146,9 @@ function displayCart(){
     <span class = "remove-item"> remove </span> 
     </div>
     <div class = "col-md-3 col-3" ><div>
-      <i style = "color: #4cd3c2" class = "fas fa-chevron-up"> </i> 
+      <i style = "color: rgb(248, 91, 91)" class = "fas fa-chevron-up"> </i> 
       <p class = "item-amount" >${items.incart}</p> 
-      <i style = "color: #4cd3c2" class = "fas fa-chevron-down" > </i> 
+      <i style = "color: rgb(248, 91, 91)" class = "fas fa-chevron-down" > </i> 
       </div> 
     </div>
   `
